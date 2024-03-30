@@ -1,0 +1,95 @@
+/* default style for all the elements */
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 50px 20px 50px 20px;
+    background: linear-gradient(#CCFBFF,#ec9dc7);  
+}
+sup{
+    color: red;
+}
+/* form body */
+fieldset{
+    background: linear-gradient(#CCFBFF,#ec9dc7); 
+    border-radius: 15px;  
+}
+
+/*  header section */
+
+#college{
+    position: relative;left: 6px;top: -45px;
+}
+
+#heading{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#heading2{
+    text-align: center;
+    font-weight: 600;
+    position: relative;top: -35px;
+}
+
+#top_line{
+    font-weight: 600;
+    background-color: rgb(0,0,0,0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    position: relative;top: -30px;
+}
+
+.green_heading{
+    font-weight: 600;
+    background-color: rgb(0,0,0,0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+button{
+    margin-right: 8px;
+    position: relative;
+    left: 650px;
+    top: 30px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+    background: transparent;
+}
+
+button:hover{
+    background-color: white;
+}
+
+
+/* typing space design */
+
+#course,#instructor{
+    border-radius: 10px;
+    border-width: 1px;
+    width: 210px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(0,0,0,0.1);
+}
+
+#course:hover{
+    background: whitesmoke;
+}
+#instructor:hover{
+    background: whitesmoke;
+}
+
+textarea{
+    background-color: rgb(0,0,0,0.2);
+}

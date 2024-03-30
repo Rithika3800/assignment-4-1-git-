@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- link area -->
+    <link rel="icon"type="download.jpg"href ="fevicon.png">
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centennial college</title>
+</head>
+<body>
+    <!-- heading -->
+
+    <form id="myForm" method="post"><!-- form title -->
+    <fieldset id="border"><!--form border-->
+      <h2 id="heading">CENTENNIAL COLLEGE</h2>
+      <img src="images.png"width="200px" height="65px" id="college"><br>
+      
+      <!--form heading-->
+         
+            <h3 id="heading2">Countinuing Education Course/Instructor Evaluation</h3><br><br>
+            <div id="top_line">Form</div>
+
+            Please read each statement carefully and consider each one individually .Use the <b>computer card</b> to make your choice .Give only <b>one answer</b> for each question.<br><br>
+       
+            <div class="form_section">
+                <label for="course"><b>Course name/code:</b><sup>*</sup></label> <!--Course name/code:-->
+                <input type="text" id="course" name="course" placeholder="Enter course name or code.." required><br><br>
+                <b>Semester:</b> <!--Semester:-->
+                <label for="fall">Fall:</label><input type="radio" id="fall"  name="semester" value="fall">
+                <label for="winter">Winter:</label><input type="radio" id="winter" name="semester" value="winter">
+                <label for="spring/summer">Spring/summer:</label><input type="radio" id="spring/summer" name="semester" value="spring/summer"><br><br>
+                <label for="instructor"><b>Instructor:</b><sup>*</sup></label>
+                <input type="text" id="instructor" name="course" placeholder="Enter Instructor's Name" required><br><br>
+            </div>
+
+            <div class="green_heading"> <!---Green Heading--->
+                INSTRUCTOR
+            </div><br>
+
+            <div class="form_section"> <!---Instructor--->
+                How would you rate the instructor's : <br><br>
+                1. <b>Knowledge</b> of the subject ?<br>
+                <label for="Execellent">Execellent : </label><input type="radio" id="Execellent" name="knowledge" value="Execellent">
+                <label for="Good">&nbsp;Good : </label><input type="radio" id="Good" name="knowledge" value="Good">
+                <label for="Fair">&nbsp;Fair : </label><input type="radio" id="Fair" name="knowledge" value="Fair">
+                <label for="Not _satisfactory">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory" name="knowledge" value="Not _satisfactory"><br><br>
+                2. <b>Helpfulness</b> ?<br>
+                <label for="Execellent2">Execellent : </label><input type="radio" id="Execellent2" name="Helpfulness" value="Execellent">
+                <label for="Good2">&nbsp;Good : </label><input type="radio" id="Good2" name="Helpfulness" value="Good">
+                <label for="Fair2">&nbsp;Fair : </label><input type="radio" id="Fair2" name="Helpfulness" value="Fair">
+                <label for="Not _satisfactory2">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory2" name="Helpfulness" value="Not _satisfactory"><br><br>
+                3. <b>Courtesy and respect</b> for all students ?<br>
+                <label for="Execellent3">Execellent : </label><input type="radio" id="Execellent3" name="respect" value="Execellent">
+                <label for="Good3">&nbsp;Good : </label><input type="radio" id="Good3" name="respect" value="Good">
+                <label for="Fair3">&nbsp;Fair : </label><input type="radio" id="Fair3" name="respect" value="Fair">
+                <label for="Not _satisfactory3">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory3" name="respect" value="Not _satisfactory"><br><br>
+                4. <b>Communication</b> skills ?<br>
+                <label for="Execellent4">Execellent : </label><input type="radio" id="Execellent4" name="Communication" value="Execellent">
+                <label for="Good4">&nbsp;Good : </label><input type="radio" id="Good4" name="Communication" value="Good">
+                <label for="Fair4">&nbsp;Fair : </label><input type="radio" id="Fair4" name="Communication" value="Fair">
+                <label for="Not _satisfactory4">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory4" name="Communication" value="Not _satisfactory"><br><br>
+                5.Overall <b>performance</b> ?<br>
+                <label for="Execellent5">Execellent : </label><input type="radio" id="Execellent5" name="performance" value="Execellent">
+                <label for="Good5">&nbsp;Good : </label><input type="radio" id="Good5" name="performance" value="Good">
+                <label for="Fair5">&nbsp;Fair : </label><input type="radio" id="Fair5" name="performance" value="Fair">
+                <label for="Not _satisfactory5">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory5" name="performance" value="Not _satisfactory"><br><br>
+            </div>
+
+            <div class="green_heading"> <!-- green heading -->
+                COURSE
+            </div><br>
+
+            <div class="form_section"> <!---Course-->
+                6.How would you rate the <b>course materials</b> ?<br>
+                <label for="Execellent6">Execellent : </label><input type="radio" id="Execellent6" name="materials" value="Execellent">
+                <label for="Good6">&nbsp;Good : </label><input type="radio" id="Good6" name="materials" value="Good">
+                <label for="Fair6">&nbsp;Fair : </label><input type="radio" id="Fair6" name="materials" value="Fair">
+                <label for="Not _satisfactory6">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory6" name="materials" value="Not _satisfactory"><br><br>
+                7.How much did this course meet your <b>execptation</b> ?<br>
+                <label for="Execellent7">Execellent : </label><input type="radio" id="Execellent7" name="execptation" value="Execellent">
+                <label for="Good7">&nbsp;Good : </label><input type="radio" id="Good7" name="execptation" value="Good">
+                <label for="Fair7">&nbsp;Fair : </label><input type="radio" id="Fair7" name="execptation" value="Fair">
+                <label for="Not _satisfactory7">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory7" name="execptation" value="Not _satisfactory"><br><br>
+                8.How would you rate this course (<b>Overall</b>) ?<br>
+                <label for="Execellent8">Execellent : </label><input type="radio" id="Execellent8" name="Overall" value="Execellent">
+                <label for="Good8">&nbsp;Good : </label><input type="radio" id="Good8" name="Overall" value="Good">
+                <label for="Fair8">&nbsp;Fair : </label><input type="radio" id="Fair8" name="Overall" value="Fair">
+                <label for="Not _satisfactory8">&nbsp;Not satisfactory  : </label><input type="radio" id="Not _satisfactory8" name="Overall" value="Not _satisfactory"><br><br>
+            </div>
+
+            <div class="green_heading"> <!-- green heading -->
+                GENERAL INFORMATION
+            </div><br>
+
+            <div class="form_section"> <!---General Information--->
+                9.Was the <b>course outline</b> reviewed/explained at the beginning of your course ?<br>
+                <label for="Execellent9">Execellent : </label><input type="radio" id="Execellent9" name="outline" value="Execellent">
+                <label for="Good9">&nbsp;Good : </label><input type="radio" id="Good9" name="outline" value="Good">
+                <label for="Fair9">&nbsp;Fair : </label><input type="radio" id="Fair9" name="outline" value="Fair">
+                <label for="Not _satisfactory9">&nbsp;Not satisfactory : </label><input type="radio" id="Not _satisfactory9" name="outline" value="Not _satisfactory"><br><br>
+                10.Would you <b>recommend</b> this course to a friend with the same interests ?<br>
+                <label for="Execellent10">Execellent : </label><input type="radio" id="Execellent10" name="recommend" value="Execellent">
+                <label for="Good10">&nbsp;Good : </label><input type="radio" id="Good10" name="recommend" value="Good">
+                <label for="Fair10">&nbsp;Fair : </label><input type="radio" id="Fair10" name="recommend" value="Fair">
+                <label for="Not _satisfactory10">&nbsp;Poor  : </label><input type="radio" id="Not _satisfactory10" name="recommend" value="Not _satisfactory"><br><br>
+            </div>
+
+            <div class="green_heading"> <!-- green heading -->
+                ANY OTHER COMMENTS (please use the back of the computer card or the paper if necessary)
+            </div><br>
+
+            <div class="form_body"> <!--ANY OTHER COMMENTS-->
+                <label for="best_things">11.What is the <b>best thing</b> about this course ?<sup>*</sup></label><br>
+                <textarea id="best_thing" rows="10" cols="100" placeholder="Share your taughts here..." required></textarea><br><br>
+
+                <label for="improve">12.How could we <b>improve</b> this course ?<sup>*</sup></label><br>
+                <textarea id="improve" rows="10" cols="100" placeholder="Share your taughts here..." required></textarea><br><br>
+
+                <label for="Other">13.Other :</label><br>
+                <textarea  id="Other" rows="10" cols="100" placeholder="Please share your taughts here to help us improve...(optional)"></textarea>
+                
+            </div><br>
+
+            <!--website-->
+          <div>
+            Web :<a href="https://www.centennialcollege.ca/">https://www.centennialcollege.ca/</a>
+            Email :<a href="https://mail.google.com/mail/?view=cm&fs=1&to=continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a><br><br>
+            Assignment1 :<a href="index.html">index.html</a>
+          </div>
+
+          </fieldset>
+           <!--buttons-->
+           <div id="buttons">
+            <button type="reset" id="reset">Reset</button>
+            <a href="thanks.html">
+                <button type="button" id="submit">Submit</button>
+            </a>
+          </div>
+        </form>
+
+</body>
+</html>
